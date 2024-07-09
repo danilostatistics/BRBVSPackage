@@ -65,7 +65,7 @@ We welcome contributions to the BRBVS package. Please fork the repository and su
 
 ## Future work 
 
-- Implement a vast class of bivariate copula survival model
+- Implement a vaster class of bivariate copula survival model
 - Improve efficiency of the agortim
 
 
