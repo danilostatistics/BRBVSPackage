@@ -63,4 +63,9 @@ The full documentation cal be found on http://www.r-pkg.org/badges/version/BRBVS
 
 We welcome contributions to the BRBVS package. Please fork the repository and submit a pull request with your changes. For major changes, please open an issue first to discuss what you would like to change.
 
+## Future work 
+
+- Implement a vast class of bivariate copula survival model
+- Improve efficiency of the agortim
+
 
