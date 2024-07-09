@@ -21,15 +21,16 @@ library(BRBVS)
 ```
 ## Usage
 
+```r
 # Assuming you want to use the BRBVS algorithm with the Clayton copula 
 # and proportional odds in both margins and assuming a sample size of n = 1000, 
 # under the package BRBVS in R, we have:
 
-```r
+
 Bivrbvs <- BRBVS(y = Y, x = X, kmax = 5, copula = 'C0', 
                  margins = c('PO', 'PO'), m = 1000 / 2, tau = 0.5,
                  n.rep = 50, metric = 'FIM')
-```
+
 
 # The argument y = Y specifies the response variables, in this case t11, t12, t21, t22, 
 # and the censoring indicators cens1, cens2, while x = X specifies the predictor variables.
@@ -45,21 +46,20 @@ Bivrbvs <- BRBVS(y = Y, x = X, kmax = 5, copula = 'C0',
 # the Fisher information defined in Table \ref{tab:measures} to be used for ranking the covariates.
 
 # Summary of the BRBVS object
-```r
-summary(Bivrbvs)
-```
-# Plot of the BRBVS results
-```r
-PlotBRBVS(Bivrbvs)
-```
 
+summary(Bivrbvs)
+
+# Plot of the BRBVS results
+
+PlotBRBVS(Bivrbvs)
+
+```
 ## Documentation 
 
 The full documentation cal be found on http://www.r-pkg.org/badges/version/BRBVS)](https://cran.r-project.org/package=BRBVS
 
 
 ## Contributing 
-
 
 We welcome contributions to the BRBVS package. Please fork the repository and submit a pull request with your changes. For major changes, please open an issue first to discuss what you would like to change.
 
